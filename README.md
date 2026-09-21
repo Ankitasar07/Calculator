@@ -1,2 +1,2 @@
 # Calculator
-Its a basic calculator that performs basic arithmetic calculations.
+A calculator that performs basic arithmetic calculations.
