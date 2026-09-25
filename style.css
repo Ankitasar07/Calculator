@@ -12,13 +12,33 @@ body{
     border-radius:5%;
     flex-direction:column;
     align-items:center;
+    gap:20px;
 }
 
 .display{
     background-color:antiquewhite;
-    height:230px;
+    height:290px;
     width:100%;
     border-radius: 5%;
-
-    
+}
+.firstRow,.secondRow,.thirdRow,.fourthRow{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+#AC,#percentage,#del,#div,#seven,#eight,#nine,#multiply,#four,#five,#six,#subtraction,#doubleZero,#zero,#equal,#dot{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:65px;
+    width:65px;
+    color:black;
+    background-color:pink;
+    border-radius:50%;
+    margin-top:15px;
+    margin-left:20px;
+    font-family:"Poppins",sans-serif;
+    font-weight:medium;
+    font-size:30px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
 }
